@@ -11,23 +11,29 @@ class BankAccount {
     {
         balance = money;
     }
-    void deposit(double money);
+    void deposit(double balance)
+    {
+        this->balance += balance;
+        //this->getBalance();
+    }
     
     double getBalance()
     {
         return balance;
     }
-    bool isBalanacePrime()
-    {
-        return false;
-    }
+
 };
 
-void BankAccount::deposit(double money)
-{   
-        if (money > 0)
-        {
-           balance += money;
-        }
+// void BankAccount::deposit(double money)
+// {   
+//         if (money > 0)
+//         {
+//            balance += money;
+//         }
         
+// }
+
+int main()
+{
+
 }
