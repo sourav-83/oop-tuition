@@ -9,6 +9,13 @@ public:
 Rectangle(int, int);
 Rectangle(const Rectangle &r);
 ~Rectangle ();
+Rectangle operator=(const Rectangle &r)
+{
+   width=new int;
+   height=new int;
+   *width=*r.width;
+   *height=*r.height; 
+}
 int area () {return (*width * *height);}
 
 };

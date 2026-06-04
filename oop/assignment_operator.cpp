@@ -27,10 +27,10 @@ class car {
 int main()
 {
    car bmw;
-   //car benz = bmw; //copy-constructor
+   // car benz = bmw; //copy-constructor
    car benz;
-   // benz = bmw; //assignment operator
-   int x = 10, y = 20;
+   benz = bmw; //assignment operator
+   // int x = 10, y = 20;
    //bmw.print(x,y);
    
    // x = 2 + 3 * 5;
