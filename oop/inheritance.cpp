@@ -47,7 +47,7 @@ class redBox: private colourfulBox {
     public:
     int f()
     {
-        return length;
+        //return length;
     }
 };
 
