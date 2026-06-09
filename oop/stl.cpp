@@ -21,6 +21,7 @@ int main()
     v.push_back(4);
     //cout<<v.size();
     //cout<<v[1];
+    //sort(v.start(),v.end());
 
     // for(int i=0; i<v.size(); i++)
     // {
