@@ -17,6 +17,9 @@ class account{
 
 }
 
+
+
+
 public class prithy {
     public static void main(String[] args)
     {
@@ -44,8 +47,11 @@ public class prithy {
         // System.out.println(i);
 
 
-        account a = new account(38);
-        System.out.println(a.getBalance());
+        // account a = new account(38);
+        // System.out.println(a.getBalance());
+
+
+        // boolean b = false;
 
         
     }
