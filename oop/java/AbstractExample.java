@@ -1,4 +1,5 @@
 abstract class animal{
+   
     abstract void speak();
     final void move()
     {
@@ -7,12 +8,18 @@ abstract class animal{
 }
 
 class cat extends animal{
+    
     void speak()
-    {
+    {   
         System.out.println("meow");
         //move();
+        complex_calculation();
+        
     }
-    
+    private void complex_calculation()
+    {
+
+    }
 
     
 }

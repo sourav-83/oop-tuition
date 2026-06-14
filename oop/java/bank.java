@@ -6,6 +6,14 @@ class account {
         balance = 0;
         count++;
     }
+
+    public int getBalance() {
+        return this.balance;
+    }
+
+    public void setBalance(int balance) {
+        this.balance = balance;
+    }
     account(int money)
     {
         balance = balance + money;
